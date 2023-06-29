@@ -3,7 +3,7 @@ import "./ProductCard.css";
 import Card from "react-bootstrap/Card";
 
 export const ProductCard = ({
-  id, name
+  name
 }) => {
   useEffect(() => {
   }, []);
@@ -11,9 +11,8 @@ export const ProductCard = ({
   const notFound = `https://user-images.githubusercontent.com/24848110/33519396-7e56363c-d79d-11e7-969b-09782f5ccbab.png`;
   return (
     <div className="cardPrD">
-      <Card className="productCardDesign" style={{ width: "18rem" }}>
+      <Card className="productCardDesign" style={{ width: "17rem" }}>
         <Card.Body>
-          <Card.Text className="cardText">{id}</Card.Text>
           <Card.Text className="cardText">{name}</Card.Text>
           {/* <Card.Text className="cardText"> */}
           {/* <Card.Img

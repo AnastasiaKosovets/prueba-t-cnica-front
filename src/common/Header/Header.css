@@ -1,5 +1,10 @@
 .headerDesign {
-    height: 15vh;
+    height: 10vh;
     width: auto;
     background-color: rgb(248, 177, 91);
+}
+
+.headerLink {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
 }

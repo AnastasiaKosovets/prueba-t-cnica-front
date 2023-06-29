@@ -1,4 +1,18 @@
 .homeDesign {
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: bisque;
 }
+
+.cardStyle {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media only screen and (max-width: 480px) {
+    .cardStyle {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }

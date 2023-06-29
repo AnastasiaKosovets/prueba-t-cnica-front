@@ -18,15 +18,18 @@ export const Home = () => {
   console.log("-----", pokemonList)
 
   return(
-      <div className="homeDesign">Pokemons:
+      <div className="homeDesign">
           { pokemonList.length > 0 ? (
-            <div>
+            <div className="cardStyle">
               {
                 pokemonList.slice(0, 20).map(pokemonS => {
                   return (
-                    <diV key={pokemonS.name}>
-                      {pokemonS.name}
-                    </diV>
+                    <div key={pokemonS}>
+                      <ProductCard 
+                      name={pokemonS.name}/>
+                        
+                       
+                    </div>
                   )
                 })
               }

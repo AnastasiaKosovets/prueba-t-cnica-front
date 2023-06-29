@@ -10,6 +10,11 @@
     width: 18rem;
 }
 
+.cardText {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(64, 51, 30);
+}
+
 .productCardDesign:hover {
     background-color: #eaebecd2;
     transition: 0.3s;

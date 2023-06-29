@@ -9,11 +9,11 @@ export const Header = () => {
     <div className="headerDesign">
       <div className="linksDesign">
       <div className="headerLink" onClick={() => navigate("/")}>
-          Home
+          Pokemons
         </div>
-        <div className="headerLink" onClick={() => navigate("/details")}>
+        {/* <div className="headerLink" onClick={() => navigate("/details")}>
           Detalles
-        </div>
+        </div> */}
       </div>
     </div>
   );
